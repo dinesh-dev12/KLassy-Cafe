@@ -1,0 +1,872 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*-------------------------- Navbar Toggle starts here -------------------------*/
+
+#my-navigation{
+    background:none ;
+    padding-bottom: 10px;
+}
+
+.navbar-toggle{
+    border: none;
+    position: relative;
+    top: 20px;
+    right:20px;
+}
+
+#my-navigation .navbar-toggle:hover{
+    background: none;
+}
+
+.navbar-toggle .line-1{
+    width: 20px;
+    height: 2px;
+    margin-bottom: 6px;
+}
+
+.navbar-toggle  .line-2{
+    width: 30px;
+    height: 2px;
+    margin-bottom: 6px;
+}
+
+.navbar-toggle .line-3{
+    width: 20px;
+    height: 2px;
+}
+
+#my-navigation ul li a {
+    font-size: 14x;
+    color: black;
+    font-weight:700;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#my-navigation ul li a:hover {
+    font-size: 14px;
+    color: #fb5849;
+    font-weight:700;
+}
+
+#mynavbar .navbar-nav .top{
+    font-size: 14px; 
+    color: #fb5849;
+    font-weight:700;
+    background: none;
+}
+
+#mynavbar{
+    position:relative;
+    top: 16px;
+    right: 20px;
+}
+
+#mynavbar hr{
+    width: 0;
+}
+
+/*----------------------------------Carousel section  Starts Here-------------------------------*/
+
+.carousel-section{
+    width: 100%;
+}
+
+.carousel-section .box-1{
+    background-image: url("../img/top-left-bg.jpg");
+    background-position: top center;
+    background-size:cover;
+    position: relative;
+    color: white;
+    padding: 0;
+    padding: 13.6% 0;
+}
+
+.carousel-section h1{
+    font-size: 46px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font: 500;
+    font-family: 'Dancing Script', cursive;
+}
+
+.carousel-section h4{
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.carousel-section .box-1 button {
+    font-size: 13px;
+    font-weight:500 ;
+    padding: 9px 10px;
+    margin-top: 16px;
+    color: #fb5849;
+}
+
+.carousel-section .box-2 {
+    padding: 0;
+    height: 100%;
+   
+}
+
+.carousel-section .box-2 .glyphicon{
+    border: 1px solid #fb5849;
+    border-radius: 100%;
+    background:#fb5849;
+    text-align: center;
+    font-size: 24px;
+    width: 35px;
+    height: 35px;
+}
+
+/*-----------------------------------carousel section Ends Here----------------------------*/
+
+/*----------------------------------Two-section starts here--------------------------------*/
+
+.two-section{
+    padding: 100px 0;
+}
+
+.two-section h3, .p1, .p2, .chef-section .heading h3 , .chef-section .chefs h3{
+    color: black;
+}
+
+.two-section .left h4, .heading-section h4, .chef-section .heading h4{
+    color: #fb5849;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.two-section .left .p1 .color{
+    color: #fb5849;
+}
+
+.two-section .left hr{
+    background-color: #fb5849;
+    width: 6%;
+    height: 0.8px;
+    border: none;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.two-section .left h3,.heading-section h3, .chef-section .heading h3{
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.two-section .left .p1 ,.p2{
+    line-height: 26px;
+}
+
+.two-section .left .p2{
+    margin-top: 20px;
+}
+
+.two-section .left img{
+    width: 26%;
+    margin:20px 0 0 20px ;
+    height: 10%;
+}
+
+.two-section .right{
+    background-image: url("../img/about-video-bg.jpg");
+    background-position: top center;
+    background-size: cover;
+    padding: 18% 0;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.two-section .right button{
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius:100%;
+    background-color: #fb5849;
+}
+
+.two-section .right button  .fa{
+    color: white;
+}
+
+/*----------------------------------------------Two-section ends here--------------------------------------*/
+
+/*--------------------------------------------- full-section Starts here----------------------------------*/
+
+
+.full-carousel{
+    width: 100%;
+    background-color: #fffafa;
+    padding: 50px 0 100px 0 ;
+}
+
+.full-carousel .heading-section h3{
+    color: black;
+}
+
+.full-carousel .heading-section hr{
+    background-color: #fb5849;
+    width: 3%;
+    height: 0.8px;
+    border: none;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.full-carousel .image-section{
+    margin-top: 70px;
+}
+
+.full-carousel .image-section .item-1{
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/menu-item-01.jpg");
+    background-size: cover;
+}
+
+.full-carousel .image-section .item-2{
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/menu-item-02.jpg");
+    background-size: cover;
+}
+
+.full-carousel .image-section .item-3{
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/menu-item-03.jpg");
+    background-size: cover;
+}
+
+.full-carousel .image-section .item-4{
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/menu-item-04.jpg");
+    background-size: cover;
+}
+
+.full-carousel .image-section .item-5{
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/menu-item-05.jpg");
+    background-size: cover;
+}
+
+.full-carousel .image-section button{
+    width: 20%;
+    height: 40px;
+    background-color: #fb5849;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+}
+
+.full-carousel .image-section .details{
+    color:white;
+    background-color: #fb5849;
+    padding: 15px 0;
+    margin-top: 300px;
+    transition:1s ;
+}
+
+.full-carousel .image-section .details:hover{
+    margin-top: 200px;
+}
+
+.full-carousel .image-section h6:hover{
+    cursor:pointer;
+
+}
+
+.full-carousel .image-section .details p,h3,h6{
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+.owl-theme .owl-nav {
+    color: #fb5849;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background: none;
+    
+}
+
+.owl-carousel .owl-nav button.owl-next:hover{
+    background: none;
+}
+
+
+/*---------------------------------------------------- full-carousel ends here--------------------------*/
+
+/* --------------------------------------------------chef-section starts here---------------------------*/
+.chef-section{
+    padding: 120px 0;
+    text-align: center;
+}
+
+.chef-section .heading h3{
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.chef-section .chefs .chef-1 , .chef-2 , .chef-3{
+    width: 30%;
+    box-sizing: border-box;
+    border: 1px solid #afafaf;
+    margin-left: 3%;
+    
+}
+
+.chef-section .chefs img{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+    
+}
+
+.chef-section .chefs .chef-1:hover , .chef-2:hover , .chef-3:hover{
+    border-color:#fb5849 ;
+    cursor: pointer;
+    color: #fb5849;
+}
+
+.chef-section .chefs h5{
+    color: black;
+}
+
+
+.chef-section .chefs .overlay{
+    width: 92%;
+    height: 78%;
+    position:absolute;
+    top: 5px;
+    background-color: #2a2a2a;
+    opacity: 0;
+    border-radius: 5px;
+}
+
+.chef-section .chefs .overlay span{
+    background-color: white;
+    border-radius: 60%;
+    padding: 5% 6%;
+    color: #2a2a2a;
+    font-size: 20px;
+    margin-top: 120px;
+    margin-left: 5px;
+}
+
+.chef-section .chefs .overlay span:hover{
+    background-color: #fb5849;
+}
+
+.chef-section .chefs .overlay:hover{
+    opacity: 0.8;
+    
+}
+
+/* -------------------------------------------------------------chef-section ends here------------------------*/
+
+
+/* ----------------------------------------------------------Contact-section starts here------------------------*/
+.contact-section{
+    padding: 130px 0;
+    background-image: url("../img/reservation-bg.jpg");
+    background-size: cover;
+}
+
+.contact-section .contact-details h5, h3 , p{
+    color: white;
+    
+}
+
+.contact-section .contact-details h3{
+    font-weight: 800;
+    line-height: 45px;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.contact-section .contact-details hr{
+    background-color: white;
+    width: 5%;
+    height: 0.8px;
+    border: none;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.contact-section .contact-cards h4{
+    color:black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contact-section .contact-cards p{
+    color:black;
+}
+
+.contact-section .contact-cards{
+    margin-top: 50px;
+}
+
+.contact-section .contact-cards .card-1{
+    padding: 10px 0;
+    background-color: white;
+    border-radius: 3%;
+    text-align: center;
+}
+
+.contact-section .contact-cards .card-2{
+    padding: 10px 0;
+    background-color: white;
+    border-radius: 3%;
+    text-align: center;
+}
+
+.contact-section .contact-cards span{
+    color: white;
+    background-color:#fb5849;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 26px;
+    position: relative;
+    top: -40px;
+}
+
+.contact-section .table-reservation form{
+    width: 100%;
+    background-color: white;
+    padding: 30px 0;
+    border-radius: 10px;
+}
+
+.contact-section .table-reservation form h2{
+    font-weight: 700;
+}
+
+.contact-section .table-reservation form .name, .mail, .number ,.guests,.date,.time{
+    width: 40%;
+    padding: 10px ;
+    border-radius: 6px;
+    border: 1px solid rgb(172, 172, 172);
+    margin-left: 6%;
+    margin-top: 3%;
+}
+
+.contact-section .table-reservation form .message ,.long-btn {
+    width: 90%;
+    padding:10px 0 120px 0;
+    border-radius: 4px;
+    border: 1px solid rgb(172, 172, 172);
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.contact-section .table-reservation form .long-btn{
+    padding: 0;
+   height: 40px;
+   background-color:#fb5849;
+   color: white;
+   font-weight: 400;
+   font-size: 13px;
+   border: 0;
+}
+
+/* -------------------Contact-section ends here--------------  -------------------Contact-section ends here--------------*/
+
+/*--------------------Offer-section starts here------------ ----------------------Offer-section starts here------------ */
+
+.offer-section{
+    padding: 100px 0;
+}
+
+
+.offer-section .description h4{
+    color: #fb5849;
+    font-size: 14px;
+    text-align:center;
+}
+
+.offer-section .description h2{
+    color: black;
+    font-weight: 800;
+    text-align: center;
+}
+
+.offer-section .img-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.offer-section .meals{
+    margin-top: 30px;
+}
+
+.offer-section .meals p{
+    color: black;
+}
+
+.offer-section .meals button{
+    width: 80px;
+    height: 70px;
+    border-radius: 10%;
+    background-color:#fb5849;
+    border:none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    display:inline;
+}
+
+.offer-section .meals .dish-1,.dish-2,.dish-3,.dish-4,.dish-5,.dish-6{
+    margin-top: 50px;
+}
+
+/*-----------------------------Offer-section ends here---------------------*/
+
+/*-----------------------------Footer Starts here---------------------------*/
+
+footer{
+    background-color: #fb5849;
+}
+
+footer .social-icons, .brand,.credits{
+    padding: 50px 0;
+}
+
+footer .social-icons span{
+    background-color: white;
+    padding: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 100%;
+    font-size:18px;
+    color: #fb5849;
+}
+
+footer .social-icons span:hover{
+    color: black;
+}
+
+footer h4{
+    color:white;
+    animation: personal 5s linear infinite;
+    animation-direction: alternate;
+    margin: 20px 0;
+    text-align: center;
+}
+
+@keyframes personal{
+    0%{
+        margin-left: 0%;
+        
+    }
+
+    100%{
+        margin-left: 50%;
+        
+    }
+
+}
+
+/*---------------------------Footer ends here---------------------*/
+
+
+
+
+
+/* __________________Media Query Starts Here____________________________________Media Query Starts Here__________________________________________Media Query Starts Here_____________________________________________*/
+
+@media(max-width:1900px){
+    .carousel-section .box-1{
+        padding: 13.5% 0;
+    }
+    
+}
+
+@media(max-width:1850px){
+    .carousel-section .box-1{
+        padding: 13.4% 0;
+    }
+    
+
+
+@media(max-width:1800px){
+    .carousel-section .box-1{
+        padding: 13.3% 0;
+    }
+    
+}
+
+@media(max-width:1700px){
+    .carousel-section .box-1{
+        padding: 13% 0;
+    }
+    
+}
+
+@media(max-width:1600px){
+    .carousel-section .box-1{
+        padding: 12.7% 0;
+    }
+    
+}
+
+@media(max-width:1550px){
+    .carousel-section .box-1{
+        padding: 12.5% 0;
+    }
+    
+}
+
+@media(max-width:1500px){
+    .carousel-section .box-1{
+        padding: 12.3% 0;
+    }
+    
+}
+
+
+@media(max-width:1400px){
+    .carousel-section .box-1{
+        padding: 12% 0;
+    }
+    
+}
+
+@media(max-width:1300px){
+    .carousel-section .box-1{
+        padding: 11.4% 0;
+    }
+    
+}
+
+@media(max-width:1200px){
+
+    .chef-section .chefs .overlay{
+        width: 90%;
+        height:75%;
+    }
+
+    .chef-section .chefs .overlay span{
+        font-size:15px;
+    }
+    
+    .full-carousel .image-section .details{
+        color:white;
+        background-color: #fb5849;
+        padding: 10px 0;
+    }
+
+    .full-carousel .image-section .details h3{
+        font-size: 20px;
+    }
+
+    .full-carousel .image-section .details p{
+        font-size: 13px;
+    }
+    
+    .offer-section .meals h4,p{
+        margin-left: 30px;
+    }
+
+}
+
+/*-------------------------------    Media Query(992PX) Starts here ------------------------------- */
+
+@media(max-width:992px){
+    
+    #mynavbar{
+        font-size: 12px;
+    }
+
+    .two-section .left img{
+        width: 30%;
+        padding: 0 1%;
+    }
+
+    .two-section .left img{
+        margin: 0;
+    }
+
+    .chef-section .chefs .chef-1 , .chef-2 , .chef-3{
+        width: 90%;
+        margin-left: 0;
+        margin:5% 0 0 6%;
+    }
+
+    .chef-section .chefs .overlay{
+        width: 96%;
+        height:88%;
+    }
+
+    
+    .full-carousel .image-section .details{
+        color:white;
+        background-color: #fb5849;
+        padding: 20px 0;
+    }
+
+    
+    .contact-section .table-reservation form{
+        margin-top: 50px;
+    }
+
+    .contact-section .contact-cards .card-2{
+        margin-top: 50px;
+    }
+
+    footer .social-icons, .brand,.credits{
+        padding:15px 0;
+    }
+
+}
+/*-------------------------------    Media Query(992PX) Ends here ------------------------------- */
+
+
+
+
+/*-------------------------------    Media Query(736PX) Starts here ------------------------------- */
+
+@media(max-width:736px){
+    
+    #my-navigation .navbar-collapse text-center{
+        background-color :white;
+        width: 50%;
+        position: relative;
+        left:150px;
+        top: 30px;
+        overflow: hidden;
+    }
+
+    #my-navigation .navbar-header img{
+        width: 80%;
+    }
+
+    #my-navigation .navbar-collapse hr{
+        width: 100%;
+    }
+
+    .carousel-section .box-1{
+        padding: 30px 0;
+    }
+
+    .carousel-section h1{
+        font-size: 36px;
+    }
+
+    .carousel-section h4{
+        font-size: 13px;
+    }
+
+    .carousel-section .btn{
+        font-size: 10px;
+        padding: 4px 12px;
+    }
+    
+    .two-section .left img{
+        width: 30%;
+       
+        margin: 20px 2px ;
+    }
+
+    .two-section .right{
+        width: 100%;
+        padding: 50% 0;
+    }
+
+    .full-carousel .image-section .item-1,.full-carousel .image-section .item-2,.full-carousel .image-section .item-3,.full-carousel .image-section .item-4,.full-carousel .image-section .item-5{
+        width: 90%;
+        margin: 5%;
+    }
+    
+    .chef-section .chefs .overlay{
+        width: 95.5%;
+        height:88%;
+    }
+
+    footer .social-icons, .brand,.credits{
+        padding:15px 0;
+    }
+}
+/*-------------------------------    Media Query(736PX) Ends here ------------------------------- */
+
+
+/*-------------------------------    Media Query550PX) Starts here ------------------------------- */
+
+@media(max-width:550px){
+    .chef-section .chefs .overlay{
+        width: 93%;
+        height: 82%;
+    }
+
+    .contact-section .table-reservation form .name, .mail, .number ,.guests,.date,.time{
+        width: 90%;
+        padding: 10px ;
+        border-radius: 6px;
+        border: 1px solid rgb(172, 172, 172);
+        margin-left: 6%;
+        margin-top: 3%;
+    }
+}
+/*-------------------------------    Media Query(550PX) ends here ------------------------------- */
+
+/*-------------------------------    Media Query(400PX) Starts here ------------------------------- */
+
+@media(max-width:400px){
+    .chef-section .chefs .overlay{
+        width: 91%;
+        height: 76%;
+    }
+
+    .offer-section .meals img{
+        margin-left: -80px;
+    }
+
+    .offer-section .meals h4{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .offer-section .meals .left .dish-1 h4{
+        margin-left: 140px;
+    }
+
+    .offer-section .meals p{
+        font-size: 15px;
+    }
+}
+}
+
+/*-------------------------------    Media Query(400PX) Ends here ------------------------------- */
+
+/* __________________Media Query Starts Here____________________________________Media Query Starts Here__________________________________________Media Query Starts Here_____________________________________________*/
+

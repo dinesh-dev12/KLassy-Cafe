@@ -842,6 +842,12 @@ footer h4{
 /*-------------------------------    Media Query(400PX) Starts here ------------------------------- */
 
 @media(max-width:400px){
+    
+    #mynavbar{
+        width: 100%;
+        position: relative;
+        right: 0rem;
+    }
     .chef-section .chefs .overlay{
         width: 91%;
         height: 76%;
